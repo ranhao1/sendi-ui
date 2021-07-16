@@ -1,6 +1,8 @@
 module.exports = {
   title: 'Sendi UI',
   description: '圣鼎 ui，基于 element-ui 2.x 封装的业务型组件',
+  bash: 'sendi-ui',
+  dest: 'public',
   extraWatchFiles: ['../src/'],
   themeConfig: {
     nav: [
