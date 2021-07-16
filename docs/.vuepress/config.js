@@ -12,7 +12,7 @@ module.exports = {
       '/guide/': [
         {
           title: '指南',
-          children: ['install']
+          children: ['']
         }
       ],
       '/component/': [

@@ -4,7 +4,7 @@ heroImage: /logo.png
 heroText: 'Sendi UI'
 tagline: '基于 element-ui 2.x 业务型组件'
 actionText: '快速上手 →'
-actionLink: /guide/install
+actionLink: /guide/
 features:
   - title: Vue 驱动
     details: 基于Vue 2.x开发
