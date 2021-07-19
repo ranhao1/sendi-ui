@@ -11,7 +11,7 @@
     <el-tag :type="stateType" :size="size" :color="color" slot="reference" :class="{ 'el-tag--popover': showPopover }">
       <span>{{ stateText }}</span>
       <slot name="icon">
-        <i class="el-icon-warning-outline" style="cursor: pointer; padding: 2px" v-if="showPopover"></i>
+        <i class="el-icon-warning-outline" style="padding: 2px" v-if="showPopover"></i>
       </slot>
     </el-tag>
     <slot>

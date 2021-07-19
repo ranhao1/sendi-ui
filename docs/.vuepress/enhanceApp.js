@@ -1,9 +1,10 @@
 import Element from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
-import SendiUi from '../../src/index'
-
-export default ({ Vue, options, router }) => {
+export default async ({ Vue, options, router }) => {
   Vue.use(Element)
-  Vue.use(SendiUi)
+  if (!Vue.prototype.$isServer) {
+    const SendiUI = await import('../../src/index')
+    Vue.use(SendiUI)
+  }
 }

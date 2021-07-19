@@ -12,7 +12,7 @@ Pagination 组件主要是基于 Element 的 `el-pagination`进行了二次封�
 
 效果：
 <ClientOnly>
-<pagination-base/>
+<demo-wrapper component="PaginationBase" />
 </ClientOnly>
 
 代码：
